@@ -3,6 +3,7 @@ import Card from "../Card/Card";
 import classes from './Adduser.module.css'
 import Button from "../Button/Button";
 import Head from '../Head/Head'
+import Footer from "../Footer/Footer";
 
 const Adduser = () => {
     return (
@@ -18,6 +19,7 @@ const Adduser = () => {
                     <input className={classes.input}></input>
                     <Button>Login</Button>
                 </form>
+                <Footer/>
             </Card>
 
         </Fragment>
