@@ -14,10 +14,9 @@
     padding: 0.25rem;
     border: 1px solid #ccc;
     background: none;
-    border: none;
+    border: unset;
     border-bottom: 1px solid whitesmoke;
     color: whitesmoke;
-
 
 }
 

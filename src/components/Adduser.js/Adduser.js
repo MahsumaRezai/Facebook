@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Card from "../Card/Card";
 import classes from './Adduser.module.css'
+import Button from "../Button/Button";
 
 const Adduser = () => {
     return (
@@ -12,7 +13,7 @@ const Adduser = () => {
                     <input className={classes.input}></input>
                     <label className={classes.label}>Password</label>
                     <input className={classes.input}></input>
-                    <button></button>
+                    <Button>Login</Button>
                 </form>
             </Card>
 
