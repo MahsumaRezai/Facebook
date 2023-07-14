@@ -1,14 +1,9 @@
 .card {
-    background-color: white;
-    width: 30%;
+    display: block;
+    width: 30rem;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-radius: 4px;
+    padding: 0.25rem;
+    border: 1px solid gray;
     margin-top: 200px;
-    margin-bottom: auto;
-    border: 1px solid whitesmoke;
-    box-shadow: 10px 10px 10px 10px gainsboro;
-    gap: 20px;
 }
