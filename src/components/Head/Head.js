@@ -1,10 +1,11 @@
-import { Fragment } from "react"
+import { Fragment } from "react";
+import classes from './Head.module.css'
 
 const Head = () => {
     return (
         <Fragment>
-            <div>
-                <h1>Facebook</h1>
+            <div className={classes.head}>
+                <h1 >Facebook</h1>
 
             </div>
         </Fragment>
