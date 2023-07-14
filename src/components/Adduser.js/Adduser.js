@@ -2,11 +2,14 @@ import { Fragment } from "react";
 import Card from "../Card/Card";
 import classes from './Adduser.module.css'
 import Button from "../Button/Button";
+import Head from '../Head/Head'
 
 const Adduser = () => {
     return (
         <Fragment>
             <Card>
+            <Head/>
+
                 <form className={classes.form} >
                 
                     <label className={classes.label}>UserName or Email</label>

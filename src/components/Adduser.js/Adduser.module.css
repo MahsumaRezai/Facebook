@@ -19,6 +19,9 @@
     color: whitesmoke;
 
 }
+.input:focus{
+    border:none;
+}
 
 .label {
     color: whitesmoke;
